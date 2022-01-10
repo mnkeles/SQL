@@ -1,0 +1,77 @@
+--1)test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, 
+--email VARCHAR(100) olan bir tablo oluşturalım.
+--CREATE TABLE employee(
+--	id SERIAL PRIMARY KEY,
+--	name VARCHAR(50),
+--	birthday DATE,
+--	email VARCHAR(100) 
+--);
+--2)Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
+insert into employee (name, birthday, email) values ('Mareah', '1979-05-13', 'mmilesap0@joomla.org');
+insert into employee (name, birthday, email) values ('Laurie', '1928-02-18', 'lamphlett1@ucsd.edu');
+insert into employee (name, birthday, email) values ('Denney', '1962-07-18', 'dmanilow2@miibeian.gov.cn');
+insert into employee (name, birthday, email) values ('Trudie', '2009-10-08', 'twhife3@reference.com');
+insert into employee (name, birthday, email) values ('Jo', '1970-02-18', 'jclibbery4@netvibes.com');
+insert into employee (name, birthday, email) values ('Michelle', '1902-11-19', 'mfearnyhough5@toplist.cz');
+insert into employee (name, birthday, email) values ('Bertram', '1915-11-01', 'bforkan6@dmoz.org');
+insert into employee (name, birthday, email) values ('Arlette', '1974-10-24', 'adugall7@networkadvertising.org');
+insert into employee (name, birthday, email) values ('Page', '1925-11-29', 'pmcaughtrie8@go.com');
+insert into employee (name, birthday, email) values ('Ange', '2020-01-06', 'agalsworthy9@t.co');
+insert into employee (name, birthday, email) values ('Aron', '1901-08-04', 'asheavillsa@oakley.com');
+insert into employee (name, birthday, email) values ('Bryon', '2008-02-10', 'bgibkeb@nih.gov');
+insert into employee (name, birthday, email) values ('Carry', '1900-01-28', 'cmccliffertyc@wp.com');
+insert into employee (name, birthday, email) values ('Rodi', '1963-07-07', 'rcatlingd@t.co');
+insert into employee (name, birthday, email) values ('Giordano', '1956-08-17', 'gottawelle@engadget.com');
+insert into employee (name, birthday, email) values ('Bucky', '1921-06-19', 'bgauntleyf@msu.edu');
+insert into employee (name, birthday, email) values ('Drucie', '1983-12-21', 'dwhitlawg@baidu.com');
+insert into employee (name, birthday, email) values ('Ronald', '2015-04-20', 'rcahernyh@dailymail.co.uk');
+insert into employee (name, birthday, email) values ('Saloma', '1997-06-30', 'smorrowi@wsj.com');
+insert into employee (name, birthday, email) values ('Alric', '1968-05-28', 'arossbrookj@mysql.com');
+insert into employee (name, birthday, email) values ('Holly-anne', '1936-08-15', null);
+insert into employee (name, birthday, email) values ('Leone', '1919-05-11', 'lphearl@disqus.com');
+insert into employee (name, birthday, email) values ('Gunter', '1901-05-17', 'gjervoisem@fda.gov');
+insert into employee (name, birthday, email) values ('Alejandrina', '1927-10-15', 'aeatesn@mac.com');
+insert into employee (name, birthday, email) values ('Philippa', '1964-06-24', null);
+insert into employee (name, birthday, email) values ('Annabell', '1987-10-31', 'ascarlanp@phoca.cz');
+insert into employee (name, birthday, email) values ('Prescott', '1925-05-29', 'pvickarq@comsenz.com');
+insert into employee (name, birthday, email) values ('Iorgo', '1973-05-10', 'ilanglaisr@unblog.fr');
+insert into employee (name, birthday, email) values ('Ethe', '1996-07-21', 'eeyrls@wikia.com');
+insert into employee (name, birthday, email) values ('Felice', '1932-09-28', 'fleyninyet@arizona.edu');
+insert into employee (name, birthday, email) values ('Oneida', '1950-06-27', 'oabercrombieu@tripod.com');
+insert into employee (name, birthday, email) values ('Sue', '1977-02-06', 'sblunev@reverbnation.com');
+insert into employee (name, birthday, email) values ('Iona', '1927-02-26', 'ialgarw@walmart.com');
+insert into employee (name, birthday, email) values ('Earl', '1930-12-26', 'etetlowx@state.gov');
+insert into employee (name, birthday, email) values ('Bernice', '1903-01-30', 'bgoricky@freewebs.com');
+insert into employee (name, birthday, email) values ('Dael', '1937-10-05', 'dfancuttz@naver.com');
+insert into employee (name, birthday, email) values ('Gonzales', '1929-04-08', 'gnewport10@delicious.com');
+insert into employee (name, birthday, email) values ('Burty', '2012-12-03', 'bstinchcombe11@ucla.edu');
+insert into employee (name, birthday, email) values ('Ferdinande', '1989-10-11', 'fflowith12@surveymonkey.com');
+insert into employee (name, birthday, email) values ('Myrtle', '1913-07-15', 'mkernoghan13@mail.ru');
+insert into employee (name, birthday, email) values ('Crin', '1999-10-06', 'cwoodson14@opera.com');
+insert into employee (name, birthday, email) values ('Bentlee', '1970-03-06', 'bbatstone15@howstuffworks.com');
+insert into employee (name, birthday, email) values ('Cynthy', '1989-01-13', 'cmendus16@mlb.com');
+insert into employee (name, birthday, email) values ('Camila', '1974-01-14', 'cgloucester17@yellowpages.com');
+insert into employee (name, birthday, email) values ('Britta', '1993-10-14', 'bdorbin18@imdb.com');
+insert into employee (name, birthday, email) values ('Raynell', '1960-01-17', 'rfiller19@bandcamp.com');
+insert into employee (name, birthday, email) values ('Herb', '1976-09-12', 'hhelling1a@free.fr');
+insert into employee (name, birthday, email) values ('Lawrence', '1915-01-05', 'llelievre1b@rakuten.co.jp');
+insert into employee (name, birthday, email) values ('Sutton', '2012-10-20', 'shawkslee1c@a8.net');
+insert into employee (name, birthday, email) values ('Natassia', '1927-08-11', 'npoolton1d@nhs.uk');
+--3)Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+--UPDATE employee
+--SET name = 'x', 
+--WHERE id >40;
+--UPDATE employee
+--SET birthday = '1998-07-09',
+--WHERE name= 'X';
+--UPDATE employee
+--SET email = 'nkeles@htomail.com',
+--WHERE NOT birthday = '1998-07-09';
+--4)Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+--DELETE FROM employee
+--WHERE id>45
+--DELETE FROM employee
+--WHERE name LINK 'A%'
+--DELETE FROM employee
+--WHERE birthday> 2000-10-10
+
